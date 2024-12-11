@@ -1,4 +1,15 @@
-const min =1000;
-const max = 9999;
-const a = Math.floor(Math.random() * (max - min + 1)) + min;
-console.log(`Random value is ${a}`);
+
+
+const randomNumberFunction = (min, max) => {
+
+    let randomNumber = Math.random();
+
+    let randomNumberResult = Math.floor(randomNumber * (max-min)+1)
+
+    console.log(randomNumberResult)
+
+
+
+}
+
+randomNumberFunction(100, 999)
