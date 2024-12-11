@@ -1,10 +1,11 @@
-const reverseString = (str) => {
-    const arrayStrings = str.split("");
-    const reverseArray = arrayStrings.reverse();
-    const joinArray = reverseArray.join("");
-    return joinArray;
+const string = 'Hello Moto'; // Reverse this string
+
+const reverseStringFunc=(val)=> {
+
+    let valSplit =  val.split("").reverse();
+    //valSplit.reverse();
+    console.log(valSplit.join(""))
+
 }
- 
-const string = 'Hello Moto';
-const result = reverseString(string);
-console.log(result);
+
+reverseStringFunc(string)
